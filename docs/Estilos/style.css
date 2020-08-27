@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:ital,wght@0,100;0,200;1,100&family=Russo+One&display=swap');
+    
+    /*Selector Universal*/
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*Selector de etiqueta*/
+h2{
+    color: green;
+    font-size: larger;
+}
+h1,h3,h5,h6{
+    color: red;
+}
+
+
+/* Selector de clase*/
+.parrafos{
+    color: lightcoral;
+}
+.rojo{
+    color: red;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: bolder;
+    font-family: 'Russo One', sans-serif;
+}
+.parrafo1{
+    font-size: 15px;
+}
+.parrafo2{
+    font-size: 1em;
+}
+
+/*Selectores de tipo ID*/
+#subtitulo{
+    background-color: yellow;
+}
+
