@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=sawp');
+
 body{
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+/* MAIN */
+
+.site-content{
+    background-image: url('/docs/portfolioBootstrap/img/header.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 50vh; 
+}
+.site-title{
+
+    color: white;
+    text-align: end;
+    margin-top: 9%;
+    font-size: 5rem;
+}
+.site-desc-box{
+    background-color: white;
+    width: 90vw;
+}
+.site-desc{
+    text-align: end;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-size: 1.5rem;
 }
