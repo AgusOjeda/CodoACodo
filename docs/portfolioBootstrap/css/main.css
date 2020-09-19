@@ -3,8 +3,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.navbar{
+    background-color: black;
+}
 /* MAIN */
-
+.container-fluid{
+    padding-left: 0%;
+}
 .site-content{
     background-image: url('/docs/portfolioBootstrap/img/header.jpg');
     background-attachment: fixed;
@@ -13,20 +18,22 @@ body{
     height: 50vh; 
 }
 .site-title{
-
     color: white;
     text-align: end;
     margin-top: 9%;
     font-size: 5rem;
+    font-weight: bolder;
 }
 .site-desc-box{
     background-color: white;
-    width: 90vw;
+    width: 99vw;
+    padding-right: ;
 }
 .site-desc{
+    color: black;
     text-align: end;
     word-spacing: 0.2rem;
     letter-spacing: 0.1rem;
-    color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
 }
