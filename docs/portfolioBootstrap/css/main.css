@@ -11,7 +11,7 @@ body{
     padding-left: 0%;
 }
 .site-content{
-    background-image: url('/docs/portfolioBootstrap/img/header.jpg');
+    background-image: url('https://github.com/AgusOjeda/CodoACodo/blob/master/docs/portfolioBootstrap/img/header.jpg?raw=true');
     background-attachment: fixed;
     background-size: cover;
     width: 100vw;
